@@ -12,6 +12,13 @@ The dataset undergoes several pre-processing steps to ensure data quality and co
 ### Modeling and Evaluation:
 We train various machine learning models, including Random Forest, Decision Tree, Gradient Boosting, Neural Networks, Logistic Regression, and Naive Bayesian, on three distinct datasets: Original, Oversampled, and Oversampled with PCA. Models are evaluated based on accuracy, precision, recall, and F1 score. Random Forest, Decision Tree, and Gradient Boosting demonstrate strong predictive capabilities for healthcare service utilization.
 
+#### Table:
+| Classification Model | Precision | Recall | Accuracy | Computation Time (in sec) |
+|----------------------|-----------|--------|----------|---------------------------|
+| Random Forest        |   0.98    |  0.97  |   0.97   |          215.25           |
+| Decision Tree        |   0.96    |  0.96  |   0.96   |           22.84           |
+| Gradient Boosting    |   0.78    |  0.79  |   0.79   |         2322.39           |
+
 ### Methodological Contributions:
 Throughout the project, we implement rigorous methodologies to ensure reliable results. We employ Train-Validate-Test splits and stratified sampling for model evaluation. Additionally, we experiment with oversampling techniques and Principal Component Analysis (PCA) for dimensionality reduction to enhance model performance. We also explored k-means clustering for pattern identification in the dataset.
 
